@@ -18,7 +18,7 @@ describe('breakdance-reflinks', function() {
   it('should generate reference links', function() {
     breakdance.before('eos', reflinks());
 
-    assert.equal(breakdance.render('<a href="/some-link"></a>', {domain: 'https://github.com'}), '[][href-0]\n\n[href-0]: https://github.com/some-link\n');
+    assert.equal(breakdance.render('<a href="/some-link">Foo</a>', {domain: 'https://github.com', reflinks: true}), '[Foo][href-0]\n\n[href-0]: https://github.com/some-link\n');
   });
 });
 
