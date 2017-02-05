@@ -2,11 +2,11 @@
   "name": "breakdance-reflinks",
   "description": "Breakdance plugin that aggregates the urls from hrefs and src attributes at the bottom of the file as reference links.",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/breakdance-reflinks",
+  "homepage": "https://github.com/breakdance/breakdance-reflinks",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/breakdance-reflinks",
+  "repository": "breakdance/breakdance-reflinks",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/breakdance-reflinks/issues"
+    "url": "https://github.com/breakdance/breakdance-reflinks/issues"
   },
   "license": "MIT",
   "files": [
